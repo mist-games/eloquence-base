@@ -22,9 +22,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mist-games/hookable"
+        }
+    ],
     "require": {
         "php": ">=7.1",
-        "sofa/hookable": ">=5.5",
+        "sofa/hookable": "dev-custom",
         "illuminate/database": ">=5.5"
     },
     "require-dev": {
